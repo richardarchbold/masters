@@ -1,0 +1,31 @@
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class DateTests {
+
+	@Test
+	public void test_true_weekday() {
+		Date myCal = new Date("1/10/2013");
+		assertEquals("Tuesday", myCal.getWeekday(myCal.day, myCal.month, 
+												 myCal.year));		
+	}
+	
+	@Test
+	public void test_false_weekday() {
+		Date myCal = new Date("1/10/2013");
+		assertNotEquals("Wednesday", myCal.getWeekday(myCal.day, myCal.month, 
+												 myCal.year));		
+	}
+	
+	@Test
+	public void test_true_getZeller() {
+		Date myCal = new Date("1/10/2013");
+		assertEquals(2, myCal.getZeller(1, 10, 2013));
+	}
+	
+	@Test
+	public void test_false_getZeller() {
+		Date myCal = new Date("1/10/2013");
+		assertEquals(10, myCal.getZeller(1, 10, 2013));
+	}
+}

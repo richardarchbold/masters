@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DateTests" project="AssignmentOne" tests="13" started="13" failures="0" errors="0" ignored="0">
+  <testsuite name="DateTests" time="0.033">
+    <testcase name="test_true_getMonthString" classname="DateTests" time="0.011"/>
+    <testcase name="test_true_weekday" classname="DateTests" time="0.001"/>
+    <testcase name="test_false_weekday" classname="DateTests" time="0.002"/>
+    <testcase name="test_false_getZeller" classname="DateTests" time="0.002"/>
+    <testcase name="test_true1_dateString" classname="DateTests" time="0.002"/>
+    <testcase name="test_true2_dateString" classname="DateTests" time="0.002"/>
+    <testcase name="test_true3_dateString" classname="DateTests" time="0.002"/>
+    <testcase name="test_true2_getZeller" classname="DateTests" time="0.001"/>
+    <testcase name="test_true4_dateString" classname="DateTests" time="0.002"/>
+    <testcase name="test_false_getMonthString" classname="DateTests" time="0.002"/>
+    <testcase name="test_false2_weekday" classname="DateTests" time="0.002"/>
+    <testcase name="test_true_getZeller" classname="DateTests" time="0.001"/>
+    <testcase name="test_true2_weekday" classname="DateTests" time="0.003"/>
+  </testsuite>
+</testrun>

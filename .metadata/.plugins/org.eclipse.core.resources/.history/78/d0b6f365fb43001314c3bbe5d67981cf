@@ -1,0 +1,12 @@
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class DateTests {
+
+	@Test
+	public void test_true_weekday() {
+		SimpleCalendar myCal = new Date("1/10/2013");
+		assertEquals("Tuesday", myCal.getWeekday(myCal.day, myCal.month, 
+												 myCal.year));		
+	}
+}
